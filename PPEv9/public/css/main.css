@@ -1,0 +1,145 @@
+.form{
+    width: 512px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.login-form{
+    position: absolute;
+    width: 500px;
+    left: 4px;
+    text-align: center;
+    transition: .8s all;
+}
+.register-form{
+    position: absolute;
+    right: -512px;
+    width: 500px;
+    text-align: center;
+    transition: .8s all;
+}
+.form .login-top{
+    font-size: small;
+    padding: 500;
+}
+.form .login-top a{
+    font-weight: 500;
+}
+.form header{
+    padding: 10px 0 30px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.input{
+    position: relative;
+    margin-bottom: 24px;
+}
+.nav .nav-menu ul .link{
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    padding-bottom: 10px;
+
+}
+.nav .nav-menu ul .active{
+    border-bottom: 4px solid var(--green);
+}
+.nav .nav-menu ul .link:hover{
+    border-bottom: 4px solid var(--green);
+}
+.nav .nav-button .btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background: #5f5f5f;
+    border-radius: 30px;
+    transition: .3s all;
+}
+.nav .nav-button .btn:hover{
+    background: #cccc;
+}
+.nav .nav-button .white-btn{
+    background: #bbb;
+}
+.nav .nav-button .white-btn:hover{
+    background: #999999;
+}
+#loginbtn{
+    margin-right: 15px;
+}
+.input .input-form{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: rgba(red, green, blue, alpha);
+    border-radius: 30px;
+    padding: 0 10px 0 40px;
+    font-size: 15px;
+    color: var(--white);
+}
+::placeholder{
+    color: #999999;
+}
+.input i{
+    position: absolute;
+    left: 17px;
+    top: 16px;
+    color: #999999;
+
+}
+.input .input-form:hover, .input .input-form:focus{
+    background: rgba(red, green, blue, alpha);
+}
+.form .button button{
+    width: 40%;
+    background: rgba(red, green, blue, alpha);
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: .3s all;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav .logo a{
+    letter-spacing: 2px;
+    color: var(--orange);
+}
+.nav logo a i{
+    padding: 5px;
+    margin-right: 5px;
+    color: #FFFF33;
+    background-color: var(--orange);
+    border-radius: 10px;
+    text-align: center;
+}
+.nav .nav-menu ul{
+    display: flex;
+}
+.nav .nav-menu ul .link{
+    
+}
